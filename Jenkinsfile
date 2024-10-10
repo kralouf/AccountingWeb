@@ -9,7 +9,7 @@ stage('Cloning Git')
 stage('Build-and-Tag')
 {
     /* Builds the actual image; synchronous to docker build on the CLI */
-    app = docker.build('lkraimer/accounting_web')
+    app = docker.build('lkraimer/accounting_web_hw3')
 }
 stage('Post-to-DockerHub')
 {

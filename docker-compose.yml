@@ -1,7 +1,7 @@
 version: '2.4'
 services:
   apache:
-    image: lkraimer/accounting_web
+    image: lkraimer/accounting_web_hw3
     ports:
     - '80:80'
     volumes:
